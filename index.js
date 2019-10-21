@@ -6,3 +6,10 @@ function writeCards(names, eventName){
   }
   return messages
 }
+
+function countDown(i){
+  while (i > 0){
+    console.log(i)
+    i--
+  }
+}
